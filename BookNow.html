@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    
+   <meta charset="UTF-8"/>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Register Now</title>
+   <link rel="stylesheet"href="E:\IT project\stylesheet3.css"type="text/css"/>
+
+   
+
+ </head>
+ <body>
+
+ <div class="navbar">  <!--navbar-->
+
+      <div class="navcontent">
+
+         <a href="file:///E:/IT%20project/Home.html" target="blank" class="homeicon">HOME</a>
+
+         <div class="dropdown"> <!--dropdown list-->
+
+              <p class="dropdp">Explore</p>
+
+              <div class="dropdown-content">
+
+                   <a href="#">Our Hotel</a>
+                   <a href="file:///E:/IT%20project/our%20shedul.html"target="blank">Our shedule</a>
+                   
+
+              </div>
+
+         </div> <!--end dropdown-->
+
+         <a href="" class="aboutusicon">About Us</a>
+
+         <a href="file:///E:/IT%20project/BookNow.html" target="blank" class="bookicon">Book Now</a>
+
+      </div> <!--end div content-->
+
+  </div>  <!--end navbar-->
+     
+    
+ 
+
+   <form class="form" name="Book Now" action="post-php">
+
+              <p class="title">Book Now</p>
+            
+           <div class="labels">  <!--div contain labels-->
+
+                <label class="first"> First Name</label>
+         
+                       <input class="l1" type ="text" placeholder="Type your First name">
+
+                             <br>
+
+                <label class="second"> last Name</label>
+         
+                       <input class="l2" type ="text" placeholder="Type your last name">
+
+                             <br>
+
+                <label class="email"> E-mali Name</label>
+         
+                       <input class="l3" type ="text" placeholder="***********@gmail">
+
+                             <br>
+
+                <label class="phone"> Phone no</label>
+         
+                       <input class="l4" type ="text" placeholder="Type your Phone">
+
+                             <br>
+                <label> How many nights:</label>
+                
+                             <br>
+                <div class="checkboxs">
+
+                    <div class="night1">
+
+                          <input type="checkbox">
+
+                                  <label> One night</labe>
+
+                    </div>
+
+                    <div class="night2">
+
+                          <input type="checkbox">
+
+                                  <label> Two night</labe>
+
+                    </div>
+               
+                    <div class="nightmore">
+
+                         <input type="checkbox">
+
+                                 <label> More </labe>
+
+                    </div>
+
+                </div> <!--end checkboxes of night-->
+
+                      <br>
+ 
+                <label class="rooms"> Rooms:</label>
+                
+                             <br>
+
+                <div class="checkboxs2">
+
+                    <div class="singl">
+
+                          <input type="checkbox">
+
+                                  <label> Singl room</labe>
+
+                    </div>
+
+                    <div class="due">
+
+                          <input type="checkbox">
+
+                                  <label> Due room</labe>
+
+                    </div>
+               
+                    <div class="sweet">
+
+                         <input type="checkbox">
+
+                                 <label> Sweet</labe>
+
+                    </div>
+
+                </div>  <!--end checkboxs of rooms-->        
+
+          </div> <!-- end dive labels-->
+   
+          <button id="demo" class="submit" onclick="thankyou()">Send</button>
+
+       </form> <!--end form tags-->
+
+       
+
+       <script> <!--an alert box apear when you click on button send-->
+
+          function thankyou(){
+
+              alert("Thank you for your register,we call you soon");
+           }
+      
+       </script>
+
+    </body>
+
+</html>
+
+
